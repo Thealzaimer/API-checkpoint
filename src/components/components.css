@@ -1,0 +1,12 @@
+.gridBox{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    column-gap: 100px;
+    row-gap: 80px;
+}
+.userBox{
+    min-height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2%;
+}
